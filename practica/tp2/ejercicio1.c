@@ -8,7 +8,7 @@ void manejador(int num) {
    printf("Recibí señal\n");
    cant++;
    if (cant == 3) {
-      printf("Finalizo mi ejecución");
+      printf("Finalizo mi ejecución\n");
       exit(1);
    }
 }
